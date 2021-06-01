@@ -30,7 +30,8 @@ body {
     display: flex;
     flex-direction: column;
     cursor: url(https://raw.githubusercontent.com/yeyushengfan258/Lyra-Cursors/0dad0a8ad1a39446694c8e7b490f05f8589b154d/src/LyraR-svg/default.svg),auto;
-    
+
+
 }
 
 header {
@@ -246,8 +247,8 @@ padding: 5px;
 }
 
 .dest{
-    display: block;
-    font-family:  'Josefin Sans', cursive;;
+display: block;
+font-family:  'Josefin Sans', cursive;;
 justify-content: center;
 word-break: normal;
 margin-top:1.5% ;
@@ -259,3 +260,14 @@ padding: 5px;
 
 
 }
+
+.subli{
+
+    text-shadow: 1px 1px 2px #9037CC, 0 0 1em #9037CC, 0 0 0.2em #9037CC;
+    font-size: 30px;
+    margin-left: 10px;
+    
+    color: #fff;
+}
+
+
