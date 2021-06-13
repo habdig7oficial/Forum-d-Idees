@@ -4,7 +4,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
 
 
 html{
@@ -84,7 +86,7 @@ a{
 
 }
 
-
+hr{color:#fff}
 
 
 
@@ -270,4 +272,49 @@ padding: 5px;
     color: #fff;
 }
 
+.nota{
 
+    display: flex;
+    justify-content: left;
+    font-family: 'Montserrat', cursive;
+    margin: 0.3%;
+}
+
+.rol{
+
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left:0.8%;
+    border:1px #fff solid;
+    border-radius: 50px;
+    align-items: center;
+    
+}
+
+.pop{
+
+    font-family: 'Poppins', cursive;
+    font-size: 20px;
+    margin: 0.5%;
+    text-align: center;
+}
+
+.pluma{
+
+    padding: 4px;
+    display: flex;
+    justify-content: right;
+    margin-left:0.8%;
+    border:1px #fff solid;
+    border-radius: 50px;
+    align-items: center;
+    background-color: transparent;
+    color: #fff;
+
+}
+
+
+.usrimg{
+    border-radius: 100px;
+}
