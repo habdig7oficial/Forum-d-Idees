@@ -18,7 +18,7 @@
 
     <!--Título-->
 
-    <title>Home Page | Página Incial</title>
+    <title>Login</title>
 
     <!--##-->
 
@@ -27,6 +27,17 @@
 
     <link rel="stylesheet" href="../css/reset.css">  <!--Revovedor de Estilos Padrão-->
     <link rel="stylesheet" href="../css/index.css">  <!--CSS principal-->
+    <link rel="stylesheet" href="../css/form.css">   <!--CSS secundario-->
+
+    <!--##-->
+
+
+    <!--JS-->
+
+    <script src="../p5/p5.js"></script>
+    <script src="../js/login.js"></script>
+
+    
 
     <!--##-->
 
@@ -41,44 +52,36 @@
     </header>
 
     
-
-    <h2>Bem-Vindo!</h2>
-    <h3>A associação do Livre Pensamento</h3>
-
-    
-    <div class="present">
-    
-    <h3>Quem Somos Nós? <br></h3>
-
-    
-        <p class="apresent">
-            Nós somos entusiastas do mundo da tecnologia, e desenvolvedores de uma pequena ideia que nós chamamos de <div class="dest"> Forum d’Idées</div>.
-
+        <div class="center">
             
-        </p>
+            <form>
+                <div>
+
+                    <label for="username">Usuário:</label>
+                    <input type="text" id="username" />
+
+                </div>
+                <div>
+
+                    <label for="senha">Senha:</label>
+                    <input style="margin-left: 6%;" type="password" id="senha" />
+
+                </div>
+                <div class="button">
+                    
+                    <button onclick="criar()" type="submit" >Criar Usuário</button>
+                </div>
+                </form>
+
+
+            </div>
         
-        <p class="apresent">
-            
-            Os propósitos deste software é ser útil para as pessoas criando um ambiente de livre debate e discussão onde você ou qualquer outro possa compartilhar seus conhecimentos e sua visão de mundo, visando quebrar as bolhas sociais, de forma fácil, acessível, gratuita e livre.
-            
-        </p>
 
-        <p class="apresent">
-            
-            Antes de começar a utilizar o nosso projeto recomendamos fortemente que leia:
-            
-            <ul  class="apresent">
 
-                <li class="subli" class="apresent"><a href="./termos_de_utilização.html">Nossos termos de utilização</a></li>
 
-            </ul>
-           
-        </p>
-    
-    </div>
 
     
-    
+
 
     <button class="langbtn">
     
