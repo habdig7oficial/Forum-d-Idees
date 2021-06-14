@@ -178,4 +178,10 @@ img {
 /**/
 
 
+.row ::selection{
 
+    
+color:  #fff;
+
+background-color:#5c80bc;
+}

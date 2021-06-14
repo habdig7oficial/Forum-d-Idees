@@ -8,6 +8,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
 
+/* Texto selecionado dourado com o fundo vermelho */
+::selection {
+    color: #dac4f7;
+    
+    background-color: rgba(76, 14, 117,0.2) ;
+  }
 
 html{
 
@@ -87,6 +93,12 @@ a{
 }
 
 hr{color:#fff}
+
+input ::selection{
+    color:  #fff;
+
+background-color:#5c80bc;
+}
 
 
 
@@ -318,3 +330,4 @@ padding: 5px;
 .usrimg{
     border-radius: 100px;
 }
+
