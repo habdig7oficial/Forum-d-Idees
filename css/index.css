@@ -94,11 +94,7 @@ a{
 
 hr{color:#fff}
 
-input ::selection{
-    color:  #fff;
 
-background-color:#5c80bc;
-}
 
 
 
@@ -301,6 +297,7 @@ padding: 5px;
     border:1px #fff solid;
     border-radius: 50px;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 
@@ -315,19 +312,53 @@ padding: 5px;
 .pluma{
 
     padding: 4px;
+    margin-left: 10px;
     display: flex;
     justify-content: right;
-    margin-left:0.8%;
     border:1px #fff solid;
     border-radius: 50px;
-    align-items: center;
+    align-items: flex-start;
     background-color: transparent;
     color: #fff;
 
 }
 
 
+div.menu-bar ul ul {
+    display: none;  
+
+    margin-bottom: auto;
+}
+  
+  div.menu-bar li:hover > ul {
+    display:flex;
+    
+  }
+  
+
+
 .usrimg{
-    border-radius: 100px;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 10000px;
+
 }
 
+.oside{
+    padding: 5px;
+}
+
+.uniclass{
+    width: 15px;
+    height: 15px
+}
+
+
+.rework{
+    display: flex;
+    margin-left: auto;
+    text-align: right;
+    flex-direction: row;
+    align-items: center;
+}

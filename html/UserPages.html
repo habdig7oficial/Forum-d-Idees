@@ -27,6 +27,7 @@
 
     <link rel="stylesheet" href="../css/reset.css">  <!--Revovedor de Estilos Padrão-->
     <link rel="stylesheet" href="../css/index.css">  <!--CSS principal-->
+    <link rel="stylesheet" media="(max-width: 510px)" href="../css/row.css">
 
     <!--##-->
 
@@ -34,7 +35,7 @@
     <!--JS-->
 
     <script src="../p5/p5.js"></script>
-    <script src="../js/dilog.js"></script>
+    <script src="../js/acriador.js"></script>
 
     <!--##-->
 
@@ -58,16 +59,60 @@
 
 
 
-    <p onclick="iframe()" style="align-items: flex-start;" class="pop">Linux</p>
+    <p id="c0" onclick="iframe()" style="align-items: flex-start;" class="pop">problemas Forum d'Idées    |</p>
 
-    <p onclick="iframe()" style="align-items: flex-start;" class="pop">Hello</p>
+    <p id="c1" onclick="iframe()" style="align-items: flex-start;" class="pop"></p>
 
-   
     
 
-    <im class="usrimg" src="../extra/" alt="Seu Usr">
+    <div class="menu-bar">
+        <ul class="space" style="display: block;">
+          <li>
+            <button class="pluma" onclick="cre()">+</button>
+            <ul>
+              <li >
+                <input id="com" style="margin-left: 15px;"></input>
+                
+              </li>
+             
 
-    <button class="pluma" onclick="cre()">+</button>
+        </ul>
+
+        
+
+      </div>
+      
+      <div class="menu-bar">
+        <ul class="space" style="display: block;">
+          <li>
+            <button class="pluma" onclick="pre()"><img class="uniclass" src="../extra/lupa.png"></button>
+            <ul>
+              <li >
+                <input id="com2" style="margin-left: 15px;"></input>
+              </li>
+             
+
+        </ul>
+      </div>
+
+
+      <div class="rework">
+
+        
+      <img class="usrimg" src="../extra/arantxa-glitch-small.jpg" alt="Seu Usr">
+
+      <p class="oi">hello</p>
+
+
+      </div>
+
+
+    </div>
+    
+
+    
+
+
 
 
 

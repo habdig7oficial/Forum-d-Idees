@@ -1,4 +1,5 @@
 
+
 iframe{margin: .6em; height: 1000px;border-radius: 30px;}
 
 
@@ -20,6 +21,7 @@ iframe{margin: .6em; height: 1000px;border-radius: 30px;}
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+    
 }
 
 .p-3 {
@@ -142,6 +144,7 @@ img {
 
 
 
+
 /**/
 .btntype{
         /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
@@ -185,3 +188,10 @@ color:  #fff;
 
 background-color:#5c80bc;
 }
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
