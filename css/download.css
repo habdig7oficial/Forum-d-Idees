@@ -150,12 +150,13 @@ img {
         /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
         align-items: flex-end;
         padding: 5px;
-        margin-left: auto;
+
         border-radius:100px;
         border-color: #48cae4;
         background-color: transparent;
         color: #48cae4;
         border:1.5px solid
+        
         
         
 }
@@ -192,6 +193,18 @@ background-color:#5c80bc;
 .row{
     display: flex;
     flex-wrap: wrap;
+    margin-right: 50px;
 }
 
+head{
+    display: none;
+}
 
+header{
+    flex-wrap: nowrap;
+}
+
+*{
+    display: flex;
+    flex-wrap: wrap;
+}
