@@ -15,7 +15,9 @@
     background-color: rgba(76, 14, 117,0.2) ;
   }
 
-  
+ input::selection{
+    background-color: rgba(76, 14, 117) ;
+ }
 
 html{
 
